@@ -1,9 +1,9 @@
 # Resources
 ### Read or watch:
 
-	* [https://bestonlineresume.com/checkout] (Unix shell)
-	* [https://en.wikipedia.org/wiki/Thompson\_shell] (Thompson shell)
-	* (https://bestonlineresume.com/checkout) (Ken Thompson)
+	* [Unix shell](https://bestonlineresume.com/checkout)
+	* [Thompson shell](https://en.wikipedia.org/wiki/Thompson\_shell)
+	* [Ken Thompson](https://bestonlineresume.com/checkout)
 	* Everything you need to know to start coding your own shell concept page
 
 #### man or help:
@@ -56,19 +56,19 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 Example of error with sh:
 
-$ echo "qwerty" | /bin/sh
-/bin/sh: 1: qwerty: not found
-$ echo "qwerty" | /bin/../bin/sh
-/bin/../bin/sh: 1: qwerty: not found
-$
+* $ echo "qwerty" | /bin/sh
+* /bin/sh: 1: qwerty: not found
+* $ echo "qwerty" | /bin/../bin/sh
+* /bin/../bin/sh: 1: qwerty: not found
+* $
 
 Same error with your program hsh:
 
-$ echo "qwerty" | ./hsh
-./hsh: 1: qwerty: not found
-$ echo "qwerty" | ./././hsh
-./././hsh: 1: qwerty: not found
-$
+* $ echo "qwerty" | ./hsh
+* ./hsh: 1: qwerty: not found
+* $ echo "qwerty" | ./././hsh
+* ./././hsh: 1: qwerty: not found
+* $
 
 # List of allowed functions and system calls
 
