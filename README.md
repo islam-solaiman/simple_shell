@@ -1,10 +1,10 @@
 # Resources
 ### Read or watch:
 
-	* [Unix shell](https://bestonlineresume.com/checkout)
-	* [Thompson shell](https://en.wikipedia.org/wiki/Thompson\_shell)
-	* [Ken Thompson](https://bestonlineresume.com/checkout)
-	* Everything you need to know to start coding your own shell concept page
+-[Unix shell](https://bestonlineresume.com/checkout)
+-[Thompson shell](https://en.wikipedia.org/wiki/Thompson\_shell)
+-[Ken Thompson](https://bestonlineresume.com/checkout)
+-[Everything you need to know to start coding your own shell concept page
 
 #### man or help:
 	* sh (Run sh as well)
