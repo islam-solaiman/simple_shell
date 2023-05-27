@@ -1,9 +1,9 @@
 # Resources
 ### Read or watch:
 
-	* [Unix shell] (https://bestonlineresume.com/checkout)
-	* [Thompson shell] (https://en.wikipedia.org/wiki/Thompson\_shell)
-	* [Ken Thompson] (https://bestonlineresume.com/checkout)
+	* [https://bestonlineresume.com/checkout] (Unix shell)
+	* [https://en.wikipedia.org/wiki/Thompson\_shell] (Thompson shell)
+	* (https://bestonlineresume.com/checkout) (Ken Thompson)
 	* Everything you need to know to start coding your own shell concept page
 
 #### man or help:
@@ -113,23 +113,23 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 Your shell should work like this in interactive mode:
 
-$ ./hsh
-($) /bin/ls
-hsh main.c shell.c
-($)
-($) exit
-$
+$ ./hsh<br>
+($) /bin/ls<br>
+hsh main.c shell.c<br>
+($)<br>
+($) exit<br>
+$<br>
 
 But also in non-interactive mode:
 
-$ echo "/bin/ls" | ./hsh
-hsh main.c shell.c test\_ls\_2
-$
-$ cat test\_ls\_2
-/bin/ls
-/bin/ls
-$
-$ cat test\_ls\_2 | ./hsh
-hsh main.c shell.c test\_ls\_2
-hsh main.c shell.c test\_ls\_2
-$
+$ echo "/bin/ls" | ./hsh<br>
+hsh main.c shell.c test\_ls\_2<br>
+$<br>
+$ cat test\_ls\_2<br>
+/bin/ls<br>
+/bin/ls<br>
+$<br>
+$ cat test\_ls\_2 | ./hsh<br>
+hsh main.c shell.c test\_ls\_2<br>
+hsh main.c shell.c test\_ls\_2<br>
+$<br>
